@@ -1,0 +1,28 @@
+* {
+    background-color: #000;
+    color: #fff;
+}
+div {position: absolute;
+    width: 600px;
+    height: 50px;
+    left: -220px;
+    top: 50px;
+    background-color: #0079c7;
+    transform: rotate(-45deg);
+    border: 2px solid #000;
+    box-shadow: 0 0 5px 5px #0079c7;
+}
+a {
+    background-color: transparent;
+    height: auto;
+    width: auto;
+    text-decoration: none;
+    font-size: 20px;
+    text-shadow: 1px 1px 5px 10px #444;
+}    
+.button {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
